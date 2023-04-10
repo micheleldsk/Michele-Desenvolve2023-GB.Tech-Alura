@@ -1,0 +1,158 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 280px;
+    background: #BBBBBB;
+}
+
+.box {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* .box>h1 {
+    display: inline-block;
+} */
+
+nav {
+    /* display: inline-block; */
+    position: absolute;
+    top: 110px;
+    /* top: 50%; */
+    right: 0;
+    /* transform: translateY(-50%); */
+}
+
+.menuHeader {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #044afc;
+    text-decoration: underline;
+}
+
+main {
+    background: linear-gradient(#FEFEFE, #888888);
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 19px;
+    margin: 0 0 10px;
+}
+
+.input_padrao {
+    display: block;
+    border: 0.5px solid #000000;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+fieldset {
+    padding: 1.5%;
+}
+
+fieldset>select {
+    width: 7%;
+    height: 4%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.sendButton {
+    width: 15%;
+    padding: 15px;
+    background: #132551;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.sendButton:hover {
+    background: #6183d7;
+    transform: scale(1.1);
+}
+
+table {
+    padding-bottom: 20px;
+}
+
+thead {
+    background: #BBBBBB;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/* label,
+input {
+    font-size: 18px;
+    display: block;
+    width: 50%;
+} */
+
+
+
+@media screen and (max-width: 480px) {
+
+    .box {
+        width: auto;
+    }
+
+    main {
+        padding: 2rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    form {
+        margin: 1rem;
+    }
+}
+
+footer {
+    text-align: center;
+    background: url("assets/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}

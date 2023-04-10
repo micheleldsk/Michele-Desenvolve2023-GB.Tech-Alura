@@ -1,0 +1,196 @@
+/* Importação de fonte via Google Fonts --------- */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+/* Reset básico --------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body --------- */
+body {
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Header --------- */
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.container-elementos-header {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-principal {
+    font-size: 24px;
+    color: #0000EE;
+    font-weight: 400;
+}
+
+.label-pesquisa {
+    background-color: #DB1E8C;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+}
+
+.input-pesquisa {
+    background-color: transparent;
+    padding: 4px;
+    border: none;
+}
+
+::placeholder {
+    color: #FF97D3;
+}
+
+/* Desafio */
+
+.container-cards {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.container-cards li {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 400px;
+    border-radius: 4px;
+    padding: 32px;
+    list-style-type: none;
+    margin: 37px 0;
+    flex-direction: column;
+}
+
+li h2 {
+    color: #364372;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.cards-descricao {
+    height: 275px;
+}
+
+.cards-descricao p {
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.botao-conferirEmenta {
+    display: flex;
+    color: #264FEC;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    padding: 18px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    width: 138.77px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+footer li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container-elementos-footer {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer__logo-boticario-alura {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo-desenvolve {
+    display: flex;
+    align-items: center;
+}
+
+.footer__grupo--links-social-linkBoticario {
+    display: flex;
+    align-items: center;
+}
+
+.footer__grupo--social-linkBoticario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer__social {
+    display: flex;
+}
+
+@media(max-width: 768px) {
+    header {
+        height: 150px;
+    }
+
+    .container-elementos-header {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .titulo-principal {
+        margin: 0 8px;
+        font-size: 22px;
+    }
+
+    .container-cards li {
+        padding: 12px;
+    }
+
+    .cards-descricao {
+        height: 350px;
+    }
+
+    .container-elementos-footer {
+        flex-direction: column;
+        height: 250px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 8px;
+    }
+}
