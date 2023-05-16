@@ -8,7 +8,8 @@
 em busca de você."</p>
 Saiba mais em https://desenvolve.grupoboticario.com.br/
 
-<p>Com intensão de renovar meus conhecimentos em desenvolvimento web, bem como desenvolver novas stacks, como desenvolvimento front e backend em NodeJS e ReactJS, decidi me cadidatar ao bootcamp do Programa Desenvolve, do Grupo Boticário, para este ano de 2023.</p>
+<p>Com intensão de renovar meus conhecimentos em desenvolvimento web, bem como desenvolver novas stacks, como desenvolvimento front e backend em NodeJS e ReactJS, decidi me cadidatar ao bootcamp do Programa Desenvolve, do Grupo Boticário, para este ano de 2023.<br>
+Michele Ladanivski (@micheleldsk)</p>
 
 <h2>Stacks desenvolvidas no Programa Desenvolve 2023</h2>
 <div style="display: inline_block" align="">
