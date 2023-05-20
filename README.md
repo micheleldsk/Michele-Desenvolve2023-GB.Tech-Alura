@@ -59,9 +59,9 @@ Michele Ladanivski (@micheleldsk)</p>
 | 12.     | ✅ JavaScript para Web: Crie páginas dinâmicas
 | 12.     | ✅ JavaScript: manipulando o DOM
 | 13.     | ✅ Git e GitHub: repositório, commit e versões
-| 13.     | ▶️ JavaScript na Web: validação de Formulários e HTML5
-| 14.     | JavaScript: consumindo e tratando dados de uma API
-| 14.     | JS na web: CRUD com JavaScript assíncrono
+| 13.     | ✅ JavaScript na Web: validação de Formulários e HTML5
+| 14.     | ✅ JavaScript: consumindo e tratando dados de uma API
+| 14.     | ▶️ JS na web: CRUD com JavaScript assíncrono
 | 15.     | SQL com MySQL: manipule e consulte dados
 | 15.     | Consultas SQL: avançando no SQL com MySQL
 | 16.     | MongoDB: uma alternativa aos bancos relacionais tradicionais
