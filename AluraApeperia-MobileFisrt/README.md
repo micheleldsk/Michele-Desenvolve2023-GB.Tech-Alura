@@ -1,4 +1,4 @@
-#Projeto Apeperia
+# Projeto Apeperia
 
 Projeto para aplicação dos conceitos estudados na Trilha Full Stack do Programa Desenvolve, do Grupo Boticário, visando o mobile first.
 
