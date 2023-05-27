@@ -1,4 +1,4 @@
-# Projeto Roboton
+# Projeto Robotron
 
 Projeto para aplicação dos conceitos estudados na Trilha Full Stack do Programa Desenvolve, do Grupo Boticário.
 
