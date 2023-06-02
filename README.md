@@ -64,9 +64,9 @@ Michele Ladanivski (@micheleldsk)</p>
 | 14.     | ✅ JS na web: CRUD com JavaScript assíncrono
 | 15.     | ✅ SQL com MySQL: manipule e consulte dados
 | 15.     | ✅ Consultas SQL: avançando no SQL com MySQL
-| 16.     | ▶️ MongoDB: uma alternativa aos bancos relacionais tradicionais
-| 16.     | Node.js: criando sua primeira biblioteca
-| 17.     | ORM com NodeJS: API com Sequelize e MySQ
+| 16.     | ✅ MongoDB: uma alternativa aos bancos relacionais tradicionais
+| 16.     | ✅ Node.js: criando sua primeira biblioteca
+| 17.     | ▶️ ORM com NodeJS: API com Sequelize e MySQ
 | 17.     | Node.js: API Rest com Express e MongoDB
 | 18.     | ORM com NodeJS: avançando nas funcionalidades do Sequelize
 | 18.     | Node.js e JWT: autenticação com tokens
