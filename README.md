@@ -67,9 +67,9 @@ Michele Ladanivski (@micheleldsk)</p>
 | 16.     | ✅ MongoDB: uma alternativa aos bancos relacionais tradicionais
 | 16.     | ✅ Node.js: criando sua primeira biblioteca
 | 17.     | ✅ ORM com NodeJS: API com Sequelize e MySQ
-| 17.     | ▶️ Node.js: API Rest com Express e MongoDB
-| 18.     | ORM com NodeJS: avançando nas funcionalidades do Sequelize
-| 18.     | Node.js e JWT: autenticação com tokens
+| 17.     | ✅ Node.js: API Rest com Express e MongoDB
+| 18.     | ✅ ORM com NodeJS: avançando nas funcionalidades do Sequelize
+| 18.     | ▶️ Node.js e JWT: autenticação com tokens
 | 19.     | TypeScript parte 1: evoluindo seu JavaScript
 | 19.     | TypeScript parte 2: avançando na linguagem
 | 20.     | Typescript parte 3: mais técnicas e boas práticas
