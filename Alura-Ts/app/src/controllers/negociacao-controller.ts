@@ -24,6 +24,7 @@ export class NegociacaoController {
   }
 
   public adiciona(): void {
+    const t1 = performance.now();
     // const negociacaoTemp = new Negociacao(null, 0, 0);
     const negociacao = Negociacao.criaDe(
       this.inputData.value,
@@ -44,6 +45,12 @@ export class NegociacaoController {
     // this.mensagemView.update("Negociação adicionada com sucesso!"); - foi para o método atualizaView
     this.limparFormulario();
     this.atualizaView();
+
+    const t2 = performance.now();
+
+    console.log(
+      `Tempo de execução do método adiciona ${(t2 - t1) / 1000} segundos.`
+    );
   }
 
   private ehDiaUtil(data: Date) {
