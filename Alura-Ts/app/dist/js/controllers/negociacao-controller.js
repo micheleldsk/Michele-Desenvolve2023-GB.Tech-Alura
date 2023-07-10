@@ -41,6 +41,7 @@ export class NegociacaoController {
             for (let negociacao of negociacoesDeHoje) {
                 this.negociacoes.adiciona(negociacao);
             }
+            this.negociacoesView.update(this.negociacoes);
         });
     }
     ehDiaUtil(data) {

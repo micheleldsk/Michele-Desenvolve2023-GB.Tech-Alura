@@ -63,7 +63,7 @@ export class NegociacaoController {
     // ); - - direcionado para o logar-tempo-de-execucao.ts
   }
 
-  importaDados(): void {
+  public importaDados(): void {
     fetch("http://localhost:8080/dados")
       .then((res) => res.json())
       .then((dados: any[]) => {
@@ -79,6 +79,7 @@ export class NegociacaoController {
         for (let negociacao of negociacoesDeHoje) {
           this.negociacoes.adiciona(negociacao);
         }
+        this.negociacoesView.update(this.negociacoes);
       });
   }
 
