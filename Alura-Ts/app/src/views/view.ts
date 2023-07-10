@@ -14,9 +14,9 @@ export abstract class View<T> {
   }
 
   // decorator recebe parâmetro e retorna uma função
-  @logarTempoDeExecucao(true)
+  // @logarTempoDeExecucao(true)
   // nesse caso ele NÃO recebe parâmetro e portanto "é direto a função"
-  @inspect
+  // @inspect
   public update(model: T): void {
     // const t1 = performance.now(); - direcionado para o logar-tempo-de-execucao.ts
     let template = this.template(model);

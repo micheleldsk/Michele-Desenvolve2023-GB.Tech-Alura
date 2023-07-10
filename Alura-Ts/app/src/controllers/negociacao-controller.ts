@@ -1,3 +1,5 @@
+import { domInjector } from "../decorators/dom-injector.js";
+import { inspect } from "../decorators/inspect.js";
 import { logarTempoDeExecucao } from "../decorators/logar-tempo-de-execucao.js";
 import { DiasDaSemana } from "../enums/dias-da-semana.js";
 import { Negociacao } from "../models/negociacao.js";
@@ -6,8 +8,13 @@ import { MensagemView } from "../views/mensagem-view.js";
 import { NegociacoesView } from "../views/negociacoes-view.js";
 
 export class NegociacaoController {
+  @domInjector("#data")
   private inputData: HTMLInputElement;
+
+  @domInjector("#quantidade")
   private inputQuantidade: HTMLInputElement;
+
+  @domInjector("#valor")
   private inputValor: HTMLInputElement;
   private negociacoes = new Negociacoes();
   private negociacoesView = new NegociacoesView("#negociacoesView");
@@ -16,14 +23,15 @@ export class NegociacaoController {
   // private readonly SABADO = 6; -feito por enums
 
   constructor() {
-    this.inputData = document.querySelector("#data") as HTMLInputElement;
-    this.inputQuantidade = document.querySelector(
-      "#quantidade"
-    ) as HTMLInputElement;
-    this.inputValor = document.querySelector("#valor") as HTMLInputElement;
+    // this.inputData = document.querySelector("#data") as HTMLInputElement;
+    // this.inputQuantidade = document.querySelector(
+    //   "#quantidade"
+    // ) as HTMLInputElement;
+    // this.inputValor = document.querySelector("#valor") as HTMLInputElement; - toda essa opção é substituída acima por @domInject('#data/#quantidade/#valor')
     this.negociacoesView.update(this.negociacoes);
   }
 
+  @inspect
   @logarTempoDeExecucao()
   public adiciona(): void {
     // const t1 = performance.now(); - direcionado para o logar-tempo-de-execucao.ts
