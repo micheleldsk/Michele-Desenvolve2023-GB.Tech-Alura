@@ -53,6 +53,8 @@ export class NegociacaoController {
     }
     // negociacao.data.setDate(12); - um buraco, pq dessa forma mesmo sendo readonly consegue alterar
     this.negociacoes.adiciona(negociacao);
+    console.log(negociacao.paraTexto());
+    console.log(this.negociacoes.paraTexto());
     // this.negociacoesView.update(this.negociacoes); - foi para o método atualizaView
     // this.mensagemView.update("Negociação adicionada com sucesso!"); - foi para o método atualizaView
     this.limparFormulario();
