@@ -1,27 +1,13 @@
-export class Negociacao {
-  // private _data: Date;
-  // private _quantidade: number;
-  // private _valor: number;
+import { Imprimivel } from "../utils/imprimivel.js";
+
+export class Negociacao extends Imprimivel {
   constructor(
     private _data: Date,
-    // private _quantidade: number,
-    // private _valor: number
-    // public readonly data: Date,
     public readonly quantidade: number,
     public readonly valor: number
   ) {
-    // this._data = data;
-    // this._quantidade = quantidade;
-    // this._valor = valor;
+    super();
   }
-
-  //   get quantidade(): number {
-  //     return this._quantidade;
-  //   }
-
-  //   get valor(): number {
-  //     return this._valor;
-  //   }
 
   public static criaDe(
     dataString: string,
