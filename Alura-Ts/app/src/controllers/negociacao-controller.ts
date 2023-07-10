@@ -63,6 +63,10 @@ export class NegociacaoController {
     // ); - - direcionado para o logar-tempo-de-execucao.ts
   }
 
+  importaDados(): void {
+    alert("Oi!");
+  }
+
   private ehDiaUtil(data: Date) {
     return (
       data.getDay() > DiasDaSemana.DOMINGO &&
