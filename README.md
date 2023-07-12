@@ -73,8 +73,8 @@ Michele Ladanivski (@micheleldsk)</p>
 | 19.     | ✅ TypeScript parte 1: evoluindo seu JavaScript
 | 19.     | ✅ TypeScript parte 2: avançando na linguagem
 | 20.     | ✅ Typescript parte 3: mais técnicas e boas práticas
-| 20.     | ▶️ Expressões regulares: capturando textos de forma mágica
-| 21.     | React: escrevendo com Typescript
+| 20.     | ✅ Expressões regulares: capturando textos de forma mágica
+| 21.     | ▶️ React: escrevendo com Typescript
 | 21.     | React: lidando com arquivos estáticos
 | 22.     | React: conhecendo a biblioteca React Router
 | 22.     | React: integrando seu projeto React com APIs
