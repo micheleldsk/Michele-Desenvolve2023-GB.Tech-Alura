@@ -1,13 +1,9 @@
 import React from "react";
+import "./style.scss";
 
 class Button extends React.Component {
   render() {
-    // const color = 'red'; - pode ser chamado em backgroundColor pela variável.
-    return (
-      <button style={{ backgroundColor: "#B0C4DE", borderRadius: "5px" }}>
-        Button
-      </button>
-    );
+    return <button className="botao">Começar</button>;
   }
 }
 
