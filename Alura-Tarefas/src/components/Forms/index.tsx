@@ -5,31 +5,40 @@ import style from "./Form.module.scss";
 class Form extends React.Component {
   render() {
     return (
-      <form className={style.novaTarefa}>
-        <div className={style.inputContainer}>
-          <label htmlFor="task">O que será estudado:</label>
-          <input
-            type="text"
-            name="task"
-            id="task"
-            // placeholder="O que será estudado:"
-            required
-          />
-        </div>
-        <div className={style.inputContainer}>
-          <label htmlFor="time">Tempo</label>
-          <input
-            type="time"
-            step={1}
-            name="time"
-            id="time"
-            min="00:00:00"
-            max="02:00:00"
-            required
-          />
-        </div>
-        <Button />
-      </form>
+      <div>
+        <form className={style.novaTarefa}>
+          <div className={style.label}>
+            <h1>Olá Michele, um exclente dia!</h1>
+          </div>
+          <div className={style.inputContainer}>
+            <label htmlFor="task" className={style.label}>
+              O que será estudado:
+            </label>
+            <input
+              type="text"
+              name="task"
+              id="task"
+              // placeholder="O que será estudado:"
+              required
+            />
+          </div>
+          <div className={style.inputContainer}>
+            <label htmlFor="time" className={style.label}>
+              Tempo
+            </label>
+            <input
+              type="time"
+              step={1}
+              name="time"
+              id="time"
+              min="00:00:00"
+              max="02:00:00"
+              required
+            />
+          </div>
+          <Button texto="Adicionar" />
+        </form>
+      </div>
     );
   }
 }

@@ -1,8 +1,9 @@
 import React from "react";
 import style from "./List.module.scss";
+import Item from "./Itens";
 
 function List() {
-  const tasks = [
+  let tasks = [
     {
       task: "Explorar Canais - React, JS, TS",
       time: "02:00:00",
@@ -22,13 +23,18 @@ function List() {
   ];
   return (
     <aside className={style.listaTarefas}>
-      <h2> Estudos/Tarefas </h2>
+      <h2
+        onClick={() => {
+          tasks = [...tasks, { task: "Estudar estado", time: "05:00:00" }];
+        }}
+      >
+        {" "}
+        Estudos/Tarefas{" "}
+      </h2>
       <ul>
         {tasks.map((item, index) => (
-          <li key={index} className={style.item}>
-            <h3>{item.task}</h3>
-            <span>{item.time}</span>
-          </li>
+          <Item key={index} task={item.task} time={item.time} />
+          // <Item {...item}/> - pode ser dessa forma também, porém merece mais atenção!
         ))}
       </ul>
     </aside>
