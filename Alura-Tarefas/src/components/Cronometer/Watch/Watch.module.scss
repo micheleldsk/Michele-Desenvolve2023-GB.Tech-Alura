@@ -1,30 +1,43 @@
+// .relogioNumero {
+//   background-color: #5d677c;
+//   box-shadow: 2px 2px 4px #2b2b2b inset;
+//   height: 3rem;
+//   width: 2rem;
+//   padding: 8px 4px;
+//   border-radius: 10px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 2rem;
+
+//   @media screen and (min-width: 1280px) {
+//     height: 7.8rem;
+//     width: 5rem;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
+// .relogioDivisao {
+//   height: 2rem;
+
+//   @media screen and (min-width: 1280px) {
+//     height: 8.6rem;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }
+
 .relogioNumero {
   background-color: #5d677c;
   box-shadow: 2px 2px 4px #2b2b2b inset;
-  height: 2.6rem;
-  width: 2rem;
-  padding: 8px 4px;
   border-radius: 10px;
+  padding: 4px 8px;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
-
-  @media screen and (min-width: 1280px) {
-    height: 7.8rem;
-    width: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-  }
-}
-
-.relogioDivisao {
-  height: 2rem;
-
-  @media screen and (min-width: 1280px) {
-    height: 8.6rem;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-  }
+  align-items: center;
+  font-size: 2rem;
+  width: fit-content;
+  height: 3rem;
 }
