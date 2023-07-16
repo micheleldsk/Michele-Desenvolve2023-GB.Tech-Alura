@@ -3,8 +3,10 @@
   height: 100%;
   font-size: 1rem;
 
-  h2 {
+  p {
     margin-bottom: 12px;
+    color: #d0d0d0;
+    font-size: 1rem;
   }
 
   ul {
@@ -14,9 +16,10 @@
   }
 
   @media screen and (min-width: 1280px) {
-    h2 {
+    p {
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.5rem;
+      color: #d0d0d0;
       margin-bottom: 24px;
     }
 
@@ -41,6 +44,7 @@
     margin-bottom: 8px;
     justify-content: baseline;
     font-size: 1.2rem;
+    color: #d0d0d0;
   }
 
   span {
@@ -50,6 +54,7 @@
 
   @media screen and (min-width: 1280px) {
     font-size: 1.8rem;
+    color: #d0d0d0;
   }
 }
 

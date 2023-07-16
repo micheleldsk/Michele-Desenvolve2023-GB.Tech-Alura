@@ -7,7 +7,7 @@ export default function Cronometer() {
   return (
     <React.Fragment>
       <div className={style.cronometro}>
-        <p className={style.titulo}>Escolha um card e inicie o cronômetro</p>
+        <p>Escolha um card e inicie o cronômetro:</p>
         <div className={style.relogioWrapper}>
           <Watch />
         </div>

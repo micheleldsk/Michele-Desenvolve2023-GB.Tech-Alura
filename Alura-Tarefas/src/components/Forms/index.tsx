@@ -32,9 +32,6 @@ class Form extends React.Component<{
     return (
       <div>
         <form className={style.novaTarefa} onSubmit={this.addTask.bind(this)}>
-          <div className={style.label}>
-            <h1>Olá Michele, um exclente dia!</h1>
-          </div>
           <div className={style.inputContainer}>
             <label htmlFor="task" className={style.label}>
               Estudos/Tarefas que deseja adicionar:
