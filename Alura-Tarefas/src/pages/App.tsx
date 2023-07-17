@@ -24,7 +24,7 @@ function App() {
     <div className={style.AppStyle}>
       <Form setTasks={setTasks} />
       <List tasks={tasks} selectTask={selectTask} />
-      <Cronometer />
+      <Cronometer checked={checked} />
     </div>
   );
 }
