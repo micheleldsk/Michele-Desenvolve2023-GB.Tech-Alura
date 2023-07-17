@@ -8,7 +8,7 @@ import { ITask } from "../types/ITask";
 function App() {
   const [tasks, setTasks] = useState<ITask[] | []>([]);
   const [checked, setChecked] = useState<ITask>();
-  const [completed, setCompleted] = useState<ITask>();
+  // const [completed, setCompleted] = useState<ITask>();
 
   function selectTask(selectedTask: ITask) {
     setChecked(selectedTask);
