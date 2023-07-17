@@ -20,11 +20,24 @@ function App() {
     );
   }
 
+  function finishTask() {
+    if (checked) {
+      setChecked(undefined);
+      setTasks((oldTasks) =>
+        oldTasks.map((task) => {
+          if (task.id === checked.id) {
+            return { ...task, checked: false, completed: true };
+          }
+          return task;
+        })
+      );
+    }
+  }
   return (
     <div className={style.AppStyle}>
       <Form setTasks={setTasks} />
       <List tasks={tasks} selectTask={selectTask} />
-      <Cronometer checked={checked} />
+      <Cronometer checked={checked} finishTask={finishTask} />
     </div>
   );
 }
