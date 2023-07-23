@@ -43,3 +43,34 @@ function App() {
 }
 
 export default App;
+
+// import { useEffect } from 'react';
+// import axios from 'axios';
+
+// function App() {
+
+//   useEffect(() => {
+//     if (checked && checked.completed) {
+//       sendWhatsAppMessage();
+//     }
+//   }, [checked]);
+
+//   async function sendWhatsAppMessage() {
+//     try {
+//       const response = await axios.post('https://api.twilio.com/2010-04-01/Accounts/SEU_ACCOUNT_SID/Messages.json', {
+//         To: 'NUMERO_DE_WHATSAPP_DESTINO',
+//         From: 'NUMERO_DE_WHATSAPP_ORIGEM',
+//         Body: 'Sua tarefa foi concluída!',
+//       }, {
+//         auth: {
+//           username: 'SEU_ACCOUNT_SID',
+//           password: 'SEU_AUTH_TOKEN',
+//         },
+//       });
+
+//       console.log(response.data);
+//     } catch (error) {
+//       console.error(error);
+//     }
+//   }
+// }
